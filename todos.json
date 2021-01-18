@@ -1,0 +1,46 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "name": "Shopping list",
+      "date": "2020-01-20",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "name": "Go to dentist",
+      "date": "2020-03-22",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "name": "Grocery shopping",
+      "date": "2020-01-21",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "name": "Make my chores",
+      "date": "2020-01-20",
+      "completed": true
+    },
+    {
+      "id": 5,
+      "name": "Studying react",
+      "date": "2020-01-20",
+      "completed": true
+    },
+    {
+      "name": "Project 1",
+      "date": "2021-01-17",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "name": "Clean my restroom",
+      "date": "2021-01-21",
+      "completed": false,
+      "id": 7
+    }
+  ]
+}

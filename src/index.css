@@ -1,0 +1,75 @@
+body,
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI";
+}
+
+main {
+  background-color: rgb(127, 179, 228);
+  padding: 30px;
+}
+
+main header {
+  display: flex;
+  justify-content: center;
+}
+
+main header h1 {
+  font-weight: bold;
+  color: #9b0707;
+}
+
+main .todo-form {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+main .todo-form label {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #5a0000;
+}
+
+main .todo-form input {
+  padding: 3px; margin: 10px;
+  border-width: 0px;
+}
+
+main .todo-form button {
+  padding: 5px;
+  width: 90px;
+  background-color: #137210;
+  border-width: 0px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+section .todo-card-list {
+  width: 600px;
+  background-color: #9b0707;
+}
+
+section ul {
+ padding: 5px; 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+section ul li {
+  display: flex;
+  justify-content: center;
+  background-color: #0c0505;
+  width: 200px;
+  list-style: none;
+  color: #ffffff;
+}
