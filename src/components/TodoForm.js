@@ -1,10 +1,10 @@
-import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useState } from 'react';
+import { useDispatch } from 'react-redux';
 import { createNewTodoAction } from '../actions/todosActions';
 
 function TodoForm() {
 
-    const [todo, todoState] = React.useState({
+    const [todo, todoState] = useState({
         name: "",
         date: "",
         completed: false
